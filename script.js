@@ -11,7 +11,7 @@ function loadStreamPlayers() {
     streamElement.innerHTML = `
       <h2>${streamer}</h2>
       <iframe
-        src="https://player.twitch.tv/?channel=${streamer}&parent=https://andrewwison.github.io/twitchsite/" 
+        src="https://player.twitch.tv/?channel=${streamer}&parent=https://andrewwison.github.io" 
         height="400"
         width="600"
         allowfullscreen>
